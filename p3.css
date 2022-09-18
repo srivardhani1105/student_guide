@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.image{
+    margin-top: 500px;
+    width: 100%;
+}
+.divv{
+    text-align: center;
+}
+.head{
+    margin-top: 100px;
+    text-align: center;
+}
+body{
+    background-image: url("contact.png");
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+.menu{
+    background:transparent;
+    background-repeat: no-repeat;
+    text-align:right;
+    margin-top: 0px;
+}
+.menu ul{
+    display:inline-flex;
+    list-style: none;
+    color:#fff;
+}
+
+.menu ul li{
+    background:rgb(0, 213, 255);
+    margin-left: 300px;
+    width: 120px;
+    margin: 15px;
+    padding:15px;
+    text-align: center;
+}
+.menu ul li button {
+
+    background-color:rgb(0, 213, 255);
+    border:none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#fff;
+    background:transparent;
+    cursor: pointer;
+}
+.active,.menu ul li:hover{
+    background: rgb(0, 213, 255);
+    border-radius: 2px;
+}
+.box{
+    margin-top: 50px;
+    border: 3px solid rgb(21, 139, 45);
+    visibility: visible;
+    background-color:#fbe8e8;
+}
+.cont{
+    border: 3px solid black;
+    visibility: visible;
+}
